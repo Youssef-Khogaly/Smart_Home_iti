@@ -1,5 +1,6 @@
  #Smart Home system
-Final Project for One Month AVR Program (Basic Level) at iti
+ 
+Final Project for One Month AVR Program (Basic Level) at ITI
  
 brief:
 2 atmega32 MCU  first MCU control LCD and Keypad "User Interface" and send user command to Room MCU to execute it 
