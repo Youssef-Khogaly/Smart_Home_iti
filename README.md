@@ -1,4 +1,6 @@
- Smart Home system
+ #Smart Home system
+
+ 
 brief:
 2 atmega32 MCU  first MCU control LCD and Keypad "User Interface" and send user command to Room MCU to execute it 
 
