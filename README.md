@@ -17,16 +17,29 @@ Drivers:
 Hal Layer:
 
 
-1-Keypad 2-LCD 3-LED 4-Stepper Motor 5-DC Motor 6-LM35 7-LDR
+1-Keypad 
+
+2-LCD
+
+3-LED
+
+4-Stepper Motor 5-DC Motor 
+
+6-LM35 7-LDR
 
 
 
 MCAL Layer:
 
+1-UART 2-GPT(Timer1 CTC Mod")
+
+3-External interrupt 4-Global interrupt
+
+5-Adc 6-DIO
 
 
-1-UART 2-GPT(Timer1 CTC Mod") 3-External interrupt 4-Global interrupt 5-Adc 6-DIO
-7-internal eeprom    
+7-internal eeprom  
+
 
 
 
