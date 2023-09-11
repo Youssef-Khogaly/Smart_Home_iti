@@ -1,0 +1,75 @@
+/*
+ * ADC_Config.h
+ *
+ *  Created on: Aug 17, 2023
+ *      Author: yosse
+ */
+
+#ifndef MCAL_ADC_ADC_CONFIG_H_
+#define MCAL_ADC_ADC_CONFIG_H_
+
+/**
+ * 	Options:
+ * 			AD_VREF_AREF_CFG
+ * 			AD_VREF_AVCC_CFG	 - > MUST USE it with EXTERNAL capacitor on AREF Pin
+ * 			AD_VREF_IVF_2_56_V_CFG	 ->  MUST USE it with EXTERNAL capacitor on AREF Pin
+ */
+#define ADC_VOLTAGE_REF_CFG		AD_VREF_AVCC_CFG
+
+/**
+ * options:
+ * 			AD_PRESCALER_2_CFG
+ * 			AD_PRESCALER_4_CFG
+ * 			AD_PRESCALER_8_CFG
+ * 			AD_PRESCALER_16_CFG
+ * 			AD_PRESCALER_32_CFG
+ * 			AD_PRESCALER_64_CFG
+ * 			AD_PRESCALER_128_CFG
+ */
+#define ADC_PRESCALER_CFG		AD_PRESCALER_128_CFG
+
+
+/**
+ * options:
+ * 			ADC_INTERRUPT_DISABLE_CFG
+ * 			ADC_INTERRUPT_ENABLE_CFG
+ *
+ */
+#define ADC_INTERRUPT_CFG	ADC_INTERRUPT_DISABLE_CFG
+
+/**
+ * options:
+ * 			ADC_AUTO_TRIGGER_DISABLE_CFG
+ * 			ADC_AUTO_TRIGGER_ENABLE_CFG
+ *
+ */
+#define ADC_AUTO_TRIGGER_CFG	ADC_AUTO_TRIGGER_DISABLE_CFG
+
+
+
+/**
+ * options :
+			 AD_FREE_RUNNING_CFG
+			 AD_ANALOG_COMPARTOR_CFG
+			 AD_EXT_INT0_CFG
+
+			 AD_TIMER0_CM_CFG
+			 AD_TIMER0_OF_CFG
+
+			 AD_TIMER1_CM_CFG
+			 AD_TIMER1_OF_CFG
+			 AD_TIMER1_CAPTURE_CFG
+ *
+ */
+#define ADC_ATRIGGER_SOURCE_CFG		AD_FREE_RUNNING_CFG
+
+
+/*******For Free Running config ******/
+
+
+//#define ADC_NOF_CHANNELS		3
+//#define ADC_CHANNEL_ARR			{ ADC_CHANNEL0 , ADC_CHANNEL1 , ADC_CHANNEL2 }
+
+//volatile static u16* ptr = NULL;
+
+#endif /* MCAL_ADC_ADC_CONFIG_H_ */

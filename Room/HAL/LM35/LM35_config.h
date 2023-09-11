@@ -1,0 +1,24 @@
+/*
+ * LM35_config.h
+ *
+ *  Created on: Aug 18, 2023
+ *      Author: yosse
+ */
+
+#ifndef HAL_LM35_LM35_CONFIG_H_
+#define HAL_LM35_LM35_CONFIG_H_
+
+/*
+ * options:
+			 LM35_ADC_CHANNEL0
+			 LM35_ADC_CHANNEL1
+			 LM35_ADC_CHANNEL2
+			 LM35_ADC_CHANNEL3
+			 LM35_ADC_CHANNEL4
+			 LM35_ADC_CHANNEL5
+			 LM35_ADC_CHANNEL6
+			 LM35_ADC_CHANNEL7
+*/
+#define LM35_ADC_CHANNEL_SELECT		LM35_ADC_CHANNEL0
+
+#endif /* HAL_LM35_LM35_CONFIG_H_ */
